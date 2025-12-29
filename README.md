@@ -25,7 +25,17 @@ cd dns-wildcard-cleaner
 pip install -r requirements.txt
 ```
 
+🚀 使用方法
+单域名检测
+python wildcard_filter.py -u example.com
 
+批量域名检测
+python wildcard_filter.py -f domains.txt
+
+
+检测完成后，结果将保存至：
+
+result.txt
 
 ## ⚠️ 免责声明（Disclaimer）
 
@@ -43,9 +53,12 @@ pip install -r requirements.txt
 3. 因使用本工具所产生的任何 **直接或间接后果**，均由使用者本人承担。
 4. 项目作者 **不对任何滥用行为负责**，亦不承担由此引发的任何法律责任。
 
+
 ### 法律声明
 
 本工具本身 **不包含漏洞利用、攻击载荷或恶意代码**，仅提供 DNS 查询与数据处理功能。  
 若使用者违反所在国家或地区的法律法规，责任与后果均与项目作者无关。
 
+
 **一旦使用本工具，即视为您已阅读并同意本免责声明的全部内容。**
+
